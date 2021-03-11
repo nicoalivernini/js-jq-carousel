@@ -1,5 +1,3 @@
-//Imposto il ready per accertarmi del corretto caricamento
-
 //Selezionare frecce
 var frecciaDx = $('.next > .fa-angle-right');
 var frecciaSx = $('.prev > .fa-angle-left');
@@ -56,3 +54,5 @@ frecciaSx.click(function(){
       $('i.last').addClass('active')
     }
 })
+
+console.log();
